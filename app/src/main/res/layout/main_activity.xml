@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:id="@+id/main_layout_id"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_shadow_end_color"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/report_button_id"
+        android:layout_width="@dimen/main_activity_button_width"
+        android:text="@string/tPrijava"
+        android:layout_marginTop="@dimen/main_activity_padding_top_button"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:layout_height="wrap_content" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/education_child_button_id"
+        android:text="@string/tEdukacijaDeca"
+        android:textSize="20sp"
+        android:layout_width="@dimen/main_activity_button_width"
+        android:layout_below="@id/report_button_id"
+        android:textAllCaps="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/education_parent_button_id"
+        android:text="@string/tEdukacijaRoditelj"
+        android:textSize="20sp"
+        android:layout_width="@dimen/main_activity_button_width"
+        android:layout_below="@id/education_child_button_id"
+        android:textAllCaps="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/play_game_button_id"
+        android:text="@string/tIgrica"
+        android:textSize="20sp"
+        android:layout_width="@dimen/main_activity_button_width"
+        android:layout_below="@id/education_parent_button_id"
+        android:textAllCaps="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

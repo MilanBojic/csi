@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Safe Web</string>
+    <string name="tEdukacijaDeca">Kutak za decu</string>
+    <string name="tEdukacijaRoditelj">Kutak za odrasle</string>
+    <string name="tIgrica">Igraj igricu</string>
+    <string name="tPrijava">Prijavi Nasilje</string>
+
+</resources>
