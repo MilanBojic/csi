@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import com.safeweb.R
 import com.safeweb.Utils
 import kotlinx.coroutines.*
-
 class SplashActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,7 +12,7 @@ class SplashActivity : AppCompatActivity() {
         setContentView(R.layout.splash_layout)
 
         GlobalScope.launch {
-            delay(1000)
+            delay(2500)
             Utils.goToMainActivity(this@SplashActivity)
             this@SplashActivity.finish()
         }

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="education_child_title_array">
+        <item>@string/education_child_title1</item>
+        <item>@string/education_child_title2</item>
+        <item>@string/education_child_title3</item>
+        <item>@string/education_child_title4</item>
+        <item>@string/education_child_title5</item>
+    </string-array>
+
+
+    <string-array name="education_child_info_array">
+        <item>@string/education_child_info1</item>
+        <item>@string/education_child_info2</item>
+        <item>@string/education_child_info3</item>
+        <item>@string/education_child_info4</item>
+        <item>@string/education_child_info5</item>
+    </string-array>
+
+
+
+    <array name="education_child_drawables">
+        <item>@drawable/ic_child</item>
+        <item>@drawable/ic_child</item>
+        <item>@drawable/ic_child</item>
+        <item>@drawable/ic_child</item>
+        <item>@drawable/ic_child</item>
+    </array>
+
+
+
+    <string-array name="education_parent_title_array">
+        <item>@string/education_parent_title1</item>
+        <item>@string/education_parent_title2</item>
+        <item>@string/education_parent_title3</item>
+        <item>@string/education_parent_title4</item>
+        <item>@string/education_parent_title5</item>
+    </string-array>
+
+
+    <string-array name="education_parent_info_array">
+        <item>@string/education_parent_info1</item>
+        <item>@string/education_parent_info2</item>
+        <item>@string/education_parent_info3</item>
+        <item>@string/education_parent_info4</item>
+        <item>@string/education_parent_info5</item>
+    </string-array>
+
+
+
+    <array name="education_parent_drawables">
+        <item>@drawable/ic_father</item>
+        <item>@drawable/ic_father</item>
+        <item>@drawable/ic_father</item>
+        <item>@drawable/ic_father</item>
+        <item>@drawable/ic_father</item>
+pdf tpdf t
+    </array>
+
+
+
+
+</resources>

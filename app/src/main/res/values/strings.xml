@@ -4,5 +4,61 @@
     <string name="tEdukacijaRoditelj">Kutak za odrasle</string>
     <string name="tIgrica">Igraj igricu</string>
     <string name="tPrijava">Prijavi Nasilje</string>
+    <string name="tBack">Povratak na pocetak</string>
+    <string name="tNext">Sledeca strana</string>
+
+
+
+
+    <!--Title child-->
+    <string name="education_child_title1">Edukacija - dete naslov 1</string>
+    <string name="education_child_title2">Edukacija - dete naslov 2</string>
+    <string name="education_child_title3">Edukacija - dete naslov 3</string>
+    <string name="education_child_title4">Edukacija - dete naslov 4</string>
+    <string name="education_child_title5">Edukacija - dete naslov 5</string>
+
+
+    <!--INFO child-->
+    <string name="education_child_info1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
+    </string>
+    <string name="education_child_info2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.</string>
+    <string name="education_child_info3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.</string>
+
+    <string name="education_child_info4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.</string>
+    <string name="education_child_info5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.</string>
+
+
+
+
+    <!--Title parent-->
+    <string name="education_parent_title1">Edukacija - roditelj naslov 1</string>
+    <string name="education_parent_title2">Edukacija - roditelj naslov 2</string>
+    <string name="education_parent_title3">Edukacija - roditelj naslov 3</string>
+    <string name="education_parent_title4">Edukacija - roditelj naslov 4</string>
+    <string name="education_parent_title5">Edukacija - roditelj naslov 5</string>
+
+
+    <!--INFO parent-->
+    <string name="education_parent_info1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
+    </string>
+    <string name="education_parent_info2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.</string>
+    <string name="education_parent_info3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.</string>
+
+    <string name="education_parent_info4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.</string>
+    <string name="education_parent_info5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.</string>
+
+
+
+
 
 </resources>

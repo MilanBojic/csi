@@ -1,12 +1,9 @@
 package com.safeweb.activities
 
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
-import com.safeweb.R
 import com.safeweb.Utils
 import com.safeweb.databinding.MainActivityBinding
-import com.safeweb.screens.WebViewFragment
 
 
 class MainActivity : AppCompatActivity() {
@@ -21,11 +18,15 @@ class MainActivity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
         binding.educationChildButtonId.setOnClickListener {
-            Utils.toastShort(this, "edukacija - dete")
+            val bundle = Bundle()
+            bundle.putSerializable("mode", EducationActivity.Mode.CHILD)
+            Utils.goToEducationActivity(this, bundle)
         }
 
         binding.educationParentButtonId.setOnClickListener {
-            Utils.toastShort(this, "edukacija - roditelj")
+            val bundle = Bundle()
+            bundle.putSerializable("mode", EducationActivity.Mode.PARENT)
+            Utils.goToEducationActivity(this, bundle)
         }
 
 
@@ -44,7 +45,6 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-
 
 
 }

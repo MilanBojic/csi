@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="10"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="5">
+
+        <ImageView
+            android:id="@+id/education_logo"
+            android:layout_width="@dimen/education_logo_size"
+            android:layout_height="@dimen/education_logo_size"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+
+
+    <include
+        layout="@layout/education_explanation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" />
+
+</LinearLayout>
