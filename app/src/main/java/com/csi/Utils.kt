@@ -1,4 +1,4 @@
-package com.safeweb
+package com.csi
 
 import android.content.Context
 import android.content.Intent
@@ -7,12 +7,12 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.annotation.DrawableRes
 import androidx.appcompat.app.AppCompatActivity
-import com.safeweb.activities.MainActivity
-import com.safeweb.activities.WebViewActivity
+import com.csi.activities.MainActivity
+import com.csi.activities.WebViewActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
-import com.safeweb.activities.EducationActivity
+import com.csi.activities.EducationActivity
 
 
 object Utils {

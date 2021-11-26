@@ -1,9 +1,9 @@
-package com.safeweb.activities
+package com.csi.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.safeweb.Utils
-import com.safeweb.databinding.MainActivityBinding
+import com.csi.Utils
+import com.csi.databinding.MainActivityBinding
 
 
 class MainActivity : AppCompatActivity() {
@@ -34,13 +34,14 @@ class MainActivity : AppCompatActivity() {
 
             val bundle = Bundle()
             bundle.putString(Utils.URL, Utils.playGameUrl)
+            bundle.putInt("mode", 1)
             Utils.goToWebActivity(this, bundle)
         }
         binding.reportButtonId.setOnClickListener {
             val bundle = Bundle()
             bundle.putString(Utils.URL, Utils.reportUrl)
+            bundle.putInt("mode", 0)
             Utils.goToWebActivity(this, bundle)
-
         }
 
 

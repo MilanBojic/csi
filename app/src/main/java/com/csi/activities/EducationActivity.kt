@@ -1,15 +1,14 @@
-package com.safeweb.activities
+package com.csi.activities
 
 import android.os.Bundle
 import android.text.TextUtils
-import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager.widget.ViewPager
-import com.safeweb.R
-import com.safeweb.components.EducationAdapter
-import com.safeweb.databinding.EducationRootLayoutBinding
-import com.safeweb.items.EducationItem
+import com.csi.R
+import com.csi.components.EducationAdapter
+import com.csi.databinding.EducationRootLayoutBinding
+import com.csi.items.EducationItem
 import java.util.ArrayList
 
 

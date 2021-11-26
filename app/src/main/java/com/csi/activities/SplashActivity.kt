@@ -1,9 +1,9 @@
-package com.safeweb.activities
+package com.csi.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.safeweb.R
-import com.safeweb.Utils
+import com.csi.R
+import com.csi.Utils
 import kotlinx.coroutines.*
 class SplashActivity : AppCompatActivity() {
 

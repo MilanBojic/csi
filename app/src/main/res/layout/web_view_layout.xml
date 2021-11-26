@@ -4,7 +4,7 @@
     android:background="@color/white"
     android:layout_height="match_parent">
 
-    <com.safeweb.components.SafeWebView
+    <com.csi.components.SafeWebView
         android:id="@+id/web_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

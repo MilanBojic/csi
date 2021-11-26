@@ -1,4 +1,4 @@
-package com.safeweb.components
+package com.csi.components
 
 import android.annotation.SuppressLint
 import android.content.Context

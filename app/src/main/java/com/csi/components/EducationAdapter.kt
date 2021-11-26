@@ -1,16 +1,15 @@
-package com.safeweb.components
+package com.csi.components
 
 import android.content.Context
-import android.text.method.LinkMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.viewpager.widget.PagerAdapter
-import com.safeweb.R
-import com.safeweb.Utils
-import com.safeweb.items.EducationItem
+import com.csi.R
+import com.csi.Utils
+import com.csi.items.EducationItem
 
 class EducationAdapter(private val mContext: Context, private val mListDataProvider: List<EducationItem>) : PagerAdapter() {
     private lateinit var mTitle: TextView
