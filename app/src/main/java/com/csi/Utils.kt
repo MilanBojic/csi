@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.csi.activities.MainActivity
 import com.csi.activities.WebViewActivity
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.csi.activities.EducationActivity
@@ -33,13 +34,13 @@ object Utils {
         from.startActivity(goToMainActivityIntent)
     }
 
-    fun goToWebActivity(from: AppCompatActivity, data: Bundle? = null) {
+    fun goToWebActivity(from: FragmentActivity, data: Bundle? = null) {
         val goToMainActivityIntent = Intent(from, WebViewActivity::class.java)
         if (data != null) goToMainActivityIntent.putExtras(data)
         from.startActivity(goToMainActivityIntent)
     }
 
-    fun goToEducationActivity(from: AppCompatActivity, data: Bundle? = null) {
+    fun goToEducationActivity(from: FragmentActivity, data: Bundle? = null) {
         val goToEducationActivity = Intent(from, EducationActivity::class.java)
         if (data != null) goToEducationActivity.putExtras(data)
         from.startActivity(goToEducationActivity)
@@ -58,11 +59,4 @@ object Utils {
         return context.resources.getDrawable(drawable, context.theme)
     }
 
-    fun loadFragment(activity: AppCompatActivity, replaceLayoutID: Int, fragment: Fragment, tag: String) {
-        val manager: FragmentManager = activity.supportFragmentManager
-        val transaction: FragmentTransaction = manager.beginTransaction()
-        transaction.add(replaceLayoutID, fragment, tag)
-        transaction.addToBackStack(tag)
-        transaction.commit()
-    }
 }

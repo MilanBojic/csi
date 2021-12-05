@@ -1,60 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="match_parent"
-    android:id="@+id/main_layout_id"
-    android:layout_height="match_parent"
-    android:background="@color/white"
-    xmlns:android="http://schemas.android.com/apk/res/android" >
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/main_image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleType="centerInside"
-        android:src="@drawable/ic_wifi">
-    </ImageView>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <androidx.drawerlayout.widget.DrawerLayout
+            android:id="@+id/main_drawer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true">
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/report_button_id"
-        android:layout_width="@dimen/main_activity_button_width"
-        android:text="@string/tPrijava"
-        android:layout_below="@id/main_image"
-        android:textSize="20sp"
-        android:layout_centerHorizontal="true"
-        android:textAllCaps="true"
-        android:layout_height="wrap_content" />
+                <com.google.android.material.appbar.AppBarLayout
+                    android:id="@+id/main_appbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/AppTheme.AppBarOverlay">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/education_child_button_id"
-        android:text="@string/tEdukacijaDeca"
-        android:textSize="20sp"
-        android:layout_width="@dimen/main_activity_button_width"
-        android:layout_below="@id/report_button_id"
-        android:textAllCaps="true"
-        android:layout_centerHorizontal="true"
-        android:layout_height="wrap_content" />
+                    <androidx.appcompat.widget.Toolbar
+                        android:id="@+id/main_toolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        app:popupTheme="@style/AppTheme.PopupOverlay"/>
 
+                </com.google.android.material.appbar.AppBarLayout>
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/education_parent_button_id"
-        android:text="@string/tEdukacijaRoditelj"
-        android:textSize="20sp"
-        android:layout_width="@dimen/main_activity_button_width"
-        android:layout_below="@id/education_child_button_id"
-        android:textAllCaps="true"
-        android:layout_centerHorizontal="true"
-        android:layout_height="wrap_content" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/play_game_button_id"
-        android:text="@string/tIgrica"
-        android:textSize="20sp"
-        android:layout_width="@dimen/main_activity_button_width"
-        android:layout_below="@id/education_parent_button_id"
-        android:textAllCaps="true"
-        android:layout_centerHorizontal="true"
-        android:layout_height="wrap_content" />
+                <fragment
+                    android:id="@+id/main_nav_host"
+                    android:name="androidx.navigation.fragment.NavHostFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    app:defaultNavHost="true"
+                    app:navGraph="@navigation/nav_graph" />
 
 
-</RelativeLayout>
+            </LinearLayout>
+
+            <com.google.android.material.navigation.NavigationView
+                android:id="@+id/main_navigation_view"
+                style="@style/Widget.Design.NavigationView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                app:headerLayout="@layout/drawer_header"
+                app:menu="@menu/menu_drawer"/>
+
+        </androidx.drawerlayout.widget.DrawerLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

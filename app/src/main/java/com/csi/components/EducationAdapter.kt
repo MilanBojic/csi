@@ -1,6 +1,8 @@
 package com.csi.components
 
 import android.content.Context
+import android.text.Html
+import android.text.method.LinkMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -19,10 +21,14 @@ class EducationAdapter(private val mContext: Context, private val mListDataProvi
         val inflater = LayoutInflater.from(mContext)
         val layout = inflater.inflate(R.layout.education_content, collection, false) as ViewGroup
         mTitle = layout.findViewById(R.id.education_title)
+
         mDesc = layout.findViewById(R.id.education_info)
         mLogo = layout.findViewById(R.id.education_logo)
         mTitle.setText(mListDataProvider[position].title)
-        mDesc.setText(mListDataProvider[position].info)
+
+        mDesc.setText(Html.fromHtml(mListDataProvider[position].info))
+        mDesc.movementMethod = LinkMovementMethod.getInstance()
+
         mLogo.setImageDrawable(Utils.getDrawable(mContext, mListDataProvider[position].logo))
         mLogo.setScaleType(ImageView.ScaleType.CENTER_INSIDE)
         collection.addView(layout)

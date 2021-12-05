@@ -1,61 +1,202 @@
 <resources>
     <string name="app_name">Safe Web</string>
-    <string name="tEdukacijaDeca">Kutak za decu</string>
-    <string name="tEdukacijaRoditelj">Kutak za odrasle</string>
-    <string name="tIgrica">Igraj igricu</string>
-    <string name="tPrijava">Prijavi Nasilje</string>
+    <string name="tEdukacija">Surfuj bezbedno</string>
+    <string name="tIgrica">Igraj bezbedno</string>
+    <string name="tPrijava">Prijavi nebezbedno </string>
     <string name="tBack">Povratak na pocetak</string>
     <string name="tNext">Sledeca strana</string>
-
-
-
-
-    <!--Title child-->
-    <string name="education_child_title1">Edukacija - dete naslov 1</string>
-    <string name="education_child_title2">Edukacija - dete naslov 2</string>
-    <string name="education_child_title3">Edukacija - dete naslov 3</string>
-    <string name="education_child_title4">Edukacija - dete naslov 4</string>
-    <string name="education_child_title5">Edukacija - dete naslov 5</string>
-
-
-    <!--INFO child-->
-    <string name="education_child_info1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
-    </string>
-    <string name="education_child_info2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.</string>
-    <string name="education_child_info3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.</string>
-
-    <string name="education_child_info4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.</string>
-    <string name="education_child_info5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.</string>
+    <string name="tMisija">Misija</string>
+    <string name="tVesti">Vesti</string>
+    <string name="tKontakt">Kontaktiraj nas</string>
+    <string name="tAbout">O programu</string>
+    <string name="tExit">Izlaz</string>
+    <string name="tDrawerTitle">Naslov 1</string>
+    <string name="tDrawerSubTitle">Sub naslov</string>
 
 
 
 
     <!--Title parent-->
-    <string name="education_parent_title1">Edukacija - roditelj naslov 1</string>
-    <string name="education_parent_title2">Edukacija - roditelj naslov 2</string>
-    <string name="education_parent_title3">Edukacija - roditelj naslov 3</string>
-    <string name="education_parent_title4">Edukacija - roditelj naslov 4</string>
-    <string name="education_parent_title5">Edukacija - roditelj naslov 5</string>
+    <string name="education_title1">Šta je CSAM?</string>
+    <string name="education_title2">Šta je doxing?</string>
+    <string name="education_title3">Šta je grooming?</string>
+    <string name="education_title4">Šta je sexting?</string>
+    <string name="education_title5">Šta je revenge porn?</string>
+    <string name="education_title6">Šta je sextortion?</string>
+    <string name="education_title7">Šta je phishing?</string>
+    <string name="education_title8">Šta je oversharing?</string>
+    <string name="education_title9">Šta je cyber stalking?</string>
+    <string name="education_title10">Šta je child trafficking?</string>
+    <string name="education_title11">Šta je cyberbullying?</string>
+    <string name="education_title12">Šta je internet zavisnost?</string>
 
 
     <!--INFO parent-->
-    <string name="education_parent_info1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
+    <string name="education_info1">
+        <![CDATA[<p><p><span>CSAM je skraćenica za Child Sexual Abuse Material, odnosno materijal koji prikazuje seksualno zlostavljanje dece. Internet je, nažalost, prepun ovakvog materijala koji su predatori na razne načine iznudili od dece.</span></p>
+<p><span>Dužnost svih nas je da kada naiđemo na materijal koji prikazuje seksualno zlostvljanje dece da ga obavezno prijavimo, kako bi &scaron;to pre bio sklonjen sa interneta, sve u cilju za&scaron;tite žrtve koja je na njemu prikazana.</span></p>
+<ul>
+<li aria-level="1"><span>93% žrtava su devojčice, a 7% dečaci.</span></li>
+<li aria-level="1"><span>76% žrtava imaju između 3 i 13 godina</span></li>
+<li aria-level="1"><span>Ovakav sadržaj se &scaron;iri i distribuira putem raznih sajtova, dru&scaron;tvenih mreža i foruma</span></li>
+<li aria-level="1"><span>Svako može da bude žrtva</span></li>
+</ul>
+<p><b>Kako se za&scaron;tititi?</b></p>
+<ul>
+<li aria-level="1"><span>Nemoj da pristane&scaron; na snimanje, fotografisanje i slanje seksualnog sadržaja.&nbsp;</span></li>
+<li aria-level="1"><span>Ne razgovaraj o seksu ni sa kime na internetu.</span></li>
+<li aria-level="1"><span>Ne odgovaraj na nepristojne poruke, već ih odmah pokaži roditeljima ili odraslom kom veruje&scaron;.</span></li>
+<li aria-level="1"><span>Ukoliko zna&scaron; da je neko u tvojoj okolini žrtva, nemoj da ćuti&scaron;, prijavi. Može&scaron; spasiti život.</span></li>
+</ul></p>]]>
     </string>
-    <string name="education_parent_info2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.</string>
-    <string name="education_parent_info3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.</string>
 
-    <string name="education_parent_info4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.</string>
-    <string name="education_parent_info5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sapien, vestibulum in iaculis non, blandit ut eros. Mauris non semper ipsum. Sed sed sapien feugiat, malesuada ipsum ut, commodo nibh.</string>
+    <string name="education_info2">
+        <![CDATA[<p><p><span>Doxing, ili doksing je pona&scaron;anje u okviru kojeg jedna osoba (dokser) prikuplja podatke o drugoj osobi, i objavljuje ih s namerom da osobu prikaže u negativnom svetlu ili je ponizi.</span></p>
+<p><span>Proces doksinga je dug, ali kada klupko počne da se odmotava, novim podacima nema kraja. Upadom na imejl, dokser dobija pristup svim nalozima koji su registrovani na tu adresu. Od Fejsbuka do banke. Sledeći korak su adresa prebivali&scaron;ta i broj telefona, a ako ste ikada ne&scaron;to kupili onlajn, sve te podatke imate na va&scaron;oj elektonskoj po&scaron;ti ili u sandučićima na dru&scaron;tvenim mrežama. Nakon ovoga kreće napad na Google disk, Apple30d ili Samsung klaud, gde telefon čuva sve va&scaron;e fotografije koje ste ikada napravili, a često i one obrisane. Zvuči neverovatno, poput scene iz filma ali ovo se, nažalost, de&scaron;ava svakodnevno.</span></p>
+<p><b>Kako se za&scaron;tititi?</b></p>
+<ul>
+<li aria-level="1"><span>&Scaron;ifre na nalozima moraju da imaju namanje osam karaktera, velika i mala slova, brojeve i specijalne karaktere popout zvezdice, tarabice ili uzvičnika.</span></li>
+<li aria-level="1"><span>Za&scaron;tita podataka je broj jedan uslov za kori&scaron;ćenje interneta, ukoliko ti neko traži lične informacije - broj telefona, &scaron;kolu koju pohađa&scaron; ili broj telefona, to obavezno prijavi.</span></li>
+</ul>
+<ul>
+<li aria-level="1"><span>Ukoliko aplikacija ne insistira na punom imenu i prezimenu, a u većini slučajeva ne insistira, koristi nadimak ili pseudonim.</span></li>
+<li aria-level="1"><span>Prilikom kreiranja pseudonima za internet izbegavaj bilo koji broj koji bi mogao da ukaže na tvoje godine. Ukoliko predator vidi ime ,,Niki2010&rsquo;&rsquo; znaće da je u pitanju dete, i da je velika verovatnoća da će ono pristati na sve.</span></li>
+<li aria-level="1"><span>Deljenje &scaron;ifre za naloge među drugarima treba da bude zabranjeno, svaku lozinku treba da zna samo vlasnik profila i eventualno roditelj ili staratelj.</span></li>
+</ul></p>]]>
+    </string>
+
+    <string name="education_info3"><![CDATA[<p><p><span>Grooming, odnosno gruming, najče&scaron;će se vezuje za negu kućnih ljubimaca i to je primarno značenje pojma. Međutim, kada je o deci reč, gruming opisuje uspostavljanje odnosa poverenja i emocionalne povezanosti između deteta i odrasle osobe, s ciljem vrbovanja i iskori&scaron;tavanja u seksualne svrhe.</span></p>
+<p><span>Grumeri su vrsni manipulatori koji se služe isprobanim tehnikama za upoznavanje dece. Oni postaju njihovi poznanici sa interneta, zatim &rsquo;&rsquo;najbolji prijatelji&rsquo;&rsquo; u koje imaju poverenja, a vrlo često i &rsquo;&rsquo;onlajn momak/devojka&rsquo;&rsquo;, i to sve zbog jednog cilja &ndash; iznuda nagih fotogarafija ili videa.</span></p>
+<p><span>Pre uspostavljanja kontakta sa detetom, ovi predatori nadgledaju grupu dece, njihovu komunikaciju, krug prijatelja, lokaciju i položaj u dru&scaron;tvu. Zatim, kada prikupe dovoljno informacija, spremni su da iz grupe izdvoje dete za koje su ocenili da će najlak&scaron;e da nasedne na njihovu priču. Ceo ovaj proces se odvija sporo i gotovo &rsquo;&rsquo;prirodno&rsquo;&rsquo; tako da u velikom broju slučajeva grumera ne uspevaju da otkriju ni roditelji, a kamoli deca.</span></p>
+<p><b>Kako se za&scaron;tititi?</b></p>
+<p><span>Zaključaj profil, prihvataj za prijatelje samo osobe koje zna&scaron;, ukoliko ti osoba koju ne poznaje&scaron; &scaron;alje poruke i uporno želi da komunicira sa tobom &ndash; prijavi roditeljima. Nikome ne &scaron;alji svoje fotografije i videe, jer je velika verovatnoća da budu zloupotrebljeni. Jednom na internetu, zauvek na internetu.</span></p></p>]]>
+    </string>
+
+    <string name="education_info4">
+        <![CDATA[<p><p><span>Seksting podrazumeva razmenu eksplicitnog sadržaja &ndash; fotografija, videa i teksta, putem mobilnog telefona, kompjutera ili tableta. Ova vrsta komunikacije nije problematična ako u njoj učestvuju dve odrasle osobe koje znaju u &scaron;ta se upu&scaron;taju, ali je opasna i kažnjiva ukoliko je upražnjavaju deca i tinejdžeri sa odraslima.</span></p>
+<p><span>Seksting može biti zamka koja će žrtvu uvući u finansijske probleme. Na internetu vrebaju manipulatori koji se služe isprobanim tehnikama za pridobijanje žrtvi. Sve počinje bezazlenim razgovorom, a kada osete da je vreme, predatori traže fotografije i videe dece i mladih u raznim pozama. Vođeni strahom od odbijanja, strahom da nisu dovoljno slobodni, kul i moderni &ndash; oni pristaju na sve.</span></p>
+<p><span>Nakon &scaron;to fotografija dospe u kompjuter predatora, žrtva je u zamci. ,,Ukoliko ne uplati&scaron; 5000 dinara do sutra, poslaću ovu fotografiju tvojoj mami!&rsquo;&rsquo; &ndash; kreću pretnje. Psihičkim zlostavljanjem žrtva postaje prisiljena da krade novac ili da se fotografi&scaron;e u ponižavajućim pozama, a to dovodi do otuđenja od dru&scaron;tva, roditelja i &scaron;kole. Sram i strah postaju sve veći, pa se ovakvi slučajevi neretko zavr&scaron;e i samoubistvom.</span></p>
+<p><b>Kako se za&scaron;tititi?</b></p>
+<p><span>Pridržavajte se pravila ,,&Scaron;BRB&rsquo;&rsquo; odnosno ,,&Scaron;ta bi baka rekla&rsquo;&rsquo;. Ono podrazumeva da na interentu ne deli&scaron; ni&scaron;ta &scaron;to ne bi želeo da tvoja baka vidi ili čuje. </span></p></p>]]>
+    </string>
+
+    <string name="education_info5">
+        <![CDATA[<p><p><span>Osvetnička pornografija je grana nesaglasne pornografije. Ona predstavlja deljenje eksplicitnog sadržaja kako bi se osoba prikazana na tom sadržaju ponizila, upla&scaron;ila i kako bi izgubila kredibilitet. Uz materijal često budu objavljenje i druge privatne informacije o osobi kao &scaron;to su ime i prezime, mesto stanovanja, radno mesto ili broj telefona.</span></p>
+<p><span>Motivi osobe koja materijal iznosi u javnost zavise od nekoliko faktora. Nekada se radi o biv&scaron;em partneru koji je razočaran zbog zavr&scaron;etka veze, pa objavljivanjem fotografija i videa želi da ponizi drugu stranu. Privatni sadržaj može se pojaviti u javnosti i kao rezultat hakovanja mobilnog telefona ili kompjutera. Kada su deca i tinejdžeri u pitanju, de&scaron;ava se da svađe i nesuglasice u dru&scaron;tvu dovode do deljenja ovakvog materijala.</span></p>
+<p><span>Bitno je naglasiti da eksplicitan sadržaj može biti napravljen svojevoljno, između dve osobe u poverenju, ili protiv svoje volje, kada je snimanje i fotografisanje tajno, ili jo&scaron; gore prisiljeno. Ni u jednom slučaju nije u redu deliti takav sadržaj bez pristanka i znanja osoba koje su učestvovale u njegovom pravljenju.</span></p>
+<p><b>Kako se za&scaron;tititi?</b></p>
+<p><span>Nemoj slati nage fotografije i videe. Ukoliko neko u dru&scaron;tvu poseduje takve fotografije, odbijaj da ih deli&scaron;. Prijavi nastavniku, treneru ili roditelju da u dru&scaron;tvu kruži takav sadržaj, kako bi sačuvao druga ili drugaricu koji je na njemu prikazan</span></p></p>]]>
+    </string>
+
+    <string name="education_info6">
+        <![CDATA[<p><p><span>Sextortion, odnosno iznuda seksualnog sadržaja je vrsta ucene koju predatori koriste za prikupljanje seksualnog sadržaja od deteta, sa ciljem da stupe u seksualni odnos sa njim ili iznude novac.</span></p>
+<p><span>Kako može da izgleda iznuda?</span></p>
+<p><span>Nepoznata osoba vas poziva putem Instagrama ili vam &scaron;alje sliku kako zlostavlja psa. Ubrzo posle slike, govori vam da se javite na poziv ili će ubiti životinju. Deca, instinktivno, bez izuzetka pristaju u želji da spase psa. Kada se uključe u poziv, predator uključuje snimanje i kreće sa zahtevima &ndash; ,,skini se ili ću ubiti ovu slatku kucu&hellip;&rsquo;&rsquo; u strahu da će prisustvovati mučenju životinje, deca pristaju na sve.</span></p>
+<p><span>Uobičajeno je da predatori stupe u prvi kontakt sa detetom na jednoj platformi/dru&scaron;tvenoj mreži, a zatim ga zamole da pređu na drugu ili treću platformu, obično onu sa &scaron;ifrovanim sistemima za razmenu poruka kako bi se otežalo praćenje njihovog zločina.</span></p>
+<p><b>Kako se za&scaron;tititi?</b></p>
+<p><span>Seksualna iznuda može da se dogodi svakome, često možemo biti žrtve osoba koje nas dobro poznaju. Najbolji savet koji može&scaron; da dobije&scaron; je da nikada ne ulazi&scaron; u komunikaciju ili razmenu fotografija i videa koji bi mogli da ti na&scaron;kode, ako dospeju u pogre&scaron;ne ruke.</span></p>
+<p><span>Ukoliko ti neko traži novac, i ima tvoje videe i fotografije, nemoj da se pla&scaron;i&scaron; i krivi&scaron; sebe, prijavi tu osobu roditelju, ili bilo kojoj odrasloj osobi u koju ima&scaron; povrenja.</span></p></p>]]>
+    </string>
+
+    <string name="education_info7">
+        <![CDATA[<p><p><span>Phishing je vrsta online prevare gde napadač pomoću mejla poku&scaron;ava da ukrade va&scaron;e podatke ili da zarazi va&scaron; računar. Ovakva elektronska po&scaron;ta je sve če&scaron;ća i funkcioni&scaron;e tako &scaron;to se hakeri predstavljaju kao velike kompanije (Google, Netflix, Instagram itd.) i navode vas da preuzmete i otvorite fajlove koji se nalaze u prilogu ili kliknete na link koji se nalazi u poruci kako bi do&scaron;li do va&scaron;ih ličnih informacija. Izraz &bdquo;phishing&ldquo; je nastao od engleske reči &bdquo;fishing&ldquo; (pecanje) po&scaron;to hakeri ovakvom po&scaron;tom &bdquo;bacaju udicu&ldquo; kao u pecanju i čekaju da se neko od ciljanih korisnika &bdquo;upeca&ldquo;.</span></p>
+<p><span>Ovakva vrsta krađe podataka može da se odvija i putem SMS poruke, putem poruka na dru&scaron;tvenim mrežama i putem aplikacija za dopisivanje.</span></p>
+<p><b>Kako se za&scaron;tititi?</b></p>
+<ul>
+<li aria-level="1"><span>Pažljivo proveri adresu web stranice. Ako podseća na URL sajta, ali nije potpuno ista &ndash; budi pažljiv, ne ostavljaj podatke.</span></li>
+<li aria-level="1"><span>Nikada na klikći na pop-up reklame koje ti nude milion dolara, besplatan iPad ili najnoviju igricu.</span></li>
+<li aria-level="1"><span>Instaliraj dobar antivirus koji će te obavestiti ukoliko neko poku&scaron;ava da te kontaktira sa sumnjive adrese.</span></li>
+<li aria-level="1"><span>Nemoj da klikće&scaron; na linkove u spam porukama i mejlovima.&nbsp;</span></li>
+<li aria-level="1"><span>Nemoj slati slati lične i poverljive podatke putem mejla. Elektronska po&scaron;ta je najlak&scaron;a da se hakuje.</span></li>
+</ul></p>]]>
+    </string>
+
+    <string name="education_info8">
+        <![CDATA[<p><p><span>Overshearing &ndash; ili preterano deljenje sadržaja na mrežama &ndash; smatra se jednim od najopasnijih fenomena koje je iznedrilo digitalno doba.&nbsp;</span></p>
+<p><span>Otkrivanjem previ&scaron;e informacija o sebi omogućavamo potencijalnim internet predatorima da nas lak&scaron;e targetiraju i napadnu. Bez obzira da li smo dete ili odrasli ljudi &ndash; Adresa kancelarije u kojoj radimo, ime &scaron;kole, teretane ili &scaron;kole plesa u koju idemo su informacije koje ne bi trebalo da budu dostupne svima. Danas su lični podaci veoma vredne informacije, jer se mogu iskoristiti u svrhe marketinga i prodaje. Međutim, danas se nedovoljno priča o tome koliko je bitno da za&scaron;titimo sebe i svoje podatke i onemogućimo strancima da se služe na&scaron;im imenom, adresom stanovanja ili brojem telefona bez pitanja i na&scaron;eg odobrenja.</span></p>
+<p><b>Kako se za&scaron;tititi?</b></p>
+<p><span>Živimo u digitalnom dobu &ndash; deljenje fotografija, videa i anegdota je normalno. Ne bi trebalo da osudimo ljude koji to rade, niti da prepla&scaron;eno odbijamo da koristimo tehnologiju u strahu da će nas neko iskoristiti, prevariti ili povrediti. Kada je o internetu reč, kao i kod mnogih drugih stvari u životu, ključ je u umerenosti i promi&scaron;ljenosti. Dva puta meri, jednom seci princip. Kada ti neka stranica traži ime, napi&scaron;i nadimak, može&scaron; preskočiti onaj korak gde na formularima ostavlja&scaron; imejl adresu, fotografije sa bazena i plaže čuvaj za sebe i svoje najbliže, lapsuse i simpatije tvoje drugarice ne mora da zna čitav internet, dovoljno je da se u krugu dru&scaron;tva smejete i zabavljate takvim stvarima. Uspomene, sreća, bezbednost a i tajne vrede vi&scaron;e nego lajk</span><b>.</b></p></p>]]>
+    </string>
+
+    <string name="education_info9">
+        <![CDATA[<p><p><span>Stalker je termin preuzet iz engleskog jezika, koristi se sve če&scaron;će, a podrazumeva osobu koja uhodi. Uhođenje, odnosno onlajn uhođenje, može imati mnogo različitih oblika, ali u naj&scaron;irem smislu to je vrebanje ili uznemiravanje koje se odvija putem dru&scaron;tvenih mreža. Ova vrsta aktivnosti se planira i traje duži vremenski period.</span></p>
+<p><span>Slučajevi sajberstalkovanja mogu početi kao naizgled bezazlene interakcije. Ponekad, posebno na početku, nekoliko čudnih ili možda neprijatnih poruka može čak da vas zabavi. Međutim, kada poruke postanu če&scaron;će, duže, kada počnu da vas pritiskaju, to postaje zastra&scaron;ujuće.</span></p>
+<p><span>Stalkeri su poznati po tome da ih ignorisanje motivi&scaron;e da se jo&scaron; vi&scaron;e &rsquo;potrude&rsquo;. Ukoliko ih blokirate ili im ne odgovarate, oni će jednu te istu poruku slati i po 30 puta na dan i kreirati bezbroj novih naloga kako bi do&scaron;li do vas.</span></p>
+<p><span>Ciljevi stalkera i sajberstalkera, ili uhoda su da vas prikupljenim informacijama uceni, privuče sebi, opljačka, o&scaron;teti, pridobije, uhvati u zamku ili natera da iz straha radite ono &scaron;to on poželi.</span></p>
+<p><b>Kako se za&scaron;tititi?</b></p>
+<ul>
+<li aria-level="1"><span>Neka ti profili budu privatni.</span></li>
+<li aria-level="1"><span>Kada deli&scaron; informacije o sebi i svom životu uvek dva puta razmisli kako one mogu biti upotrebljene protiv tebe.</span></li>
+<li aria-level="1"><span>Obrati pažnju na pode&scaron;avanja &ndash; ko sve može da te kontaktira, ko sve može da ti pi&scaron;e, ko sve može da vidi tvoje fotografije.</span></li>
+<li aria-level="1"><span>Izbegavaj da taguje&scaron; lokaciju na kojoj se trenutno nalazi&scaron;.</span></li>
+<li aria-level="1"><span>Broj telefona, email adresu, adresu kuće ili stana kao i broj telefona nemoj ostavljati nigde na internetu. Sve &scaron;to se jednom postavi na internet na njemu ostaje zauvek.</span></li>
+</ul></p>]]>
+    </string>
+
+
+    <string name="education_info10">
+        <![CDATA[<p><p><span>Trgovina decom je jedan od oblika trgovine ljudima, i predstavlja kr&scaron;enje osnovnih ljudskih prava na slobodu radi različitih vrsta eksploatacija u cilju ostvarivanja koristi drugih osoba.&nbsp;</span></p>
+<p><b>Za&scaron;to se trguje decom?</b>
+
+<p><b>Radi radne eksploatacije</b><span> - Milioni dece &scaron;irom sveta su žrtve radne ekploatacije koja pogubno utiče na njihovo detinjstvo, zdravlje i obrazovanje. Prema podacima Svetske Banke vi&scaron;e od 168 miliona dece uzrasta od 5 do 17 godina se ubraja u dečiju radnu snagu.</span></p>
+<p><b>Radi seksualne eksploatacije</b><span> - Prisiljavanje dece na pružanje seksualnih usluga za novac ili neku drugu materijalnu nadoknadu. Jedan od vidova seksualne eksploatacije je primoravanje deteta da učestvuje u pornografskim i seksualnim aktivnostima. Takođe podrazumeva i proizvodnju, posedovanje, distribuciju i prenos dečije pornografije</span></p>
+
+<p><b>Radi trgovine organima - </b><span>Trgovina organima podrazumeva krivično delo koje obuhvata kupovinu odnosno prodaju ljudskih organa. Ovaj postupak se odnosi na otmicu dece, uzimanje njihovih delova tela i organa u nehumanim uslovima i prodavanje istih na crnom trži&scaron;tu organa radi dalje transplantacije.</span></p>
+<p><b>Radi prinudnih brakova &ndash; </b><span>Devojčice i dečaci se prodaju radi prinudnog sklapanja brakova u cilju sticanja bogatstva ili ekploatacije na bilo koji način. Prinuda na sklapanje brakova u Srbiji tretira se kao trgovina ljudima bez obzira na namenu prodavca. U brak mogu da stupe samo osobe starije od 18 godina.</span></p>
+
+<p><b>Radi prinudnog prosjačenja - </b><span>Prinudno prosjačenje predstavlja primoravanje dece da iznuđuju novac. U ove svrhe često se koriste deca jer je njima lako manipulisati od strane organizatora ovog kriminalnog akta. Za prisilno prosjačenje se koriste i bebe, sve u cilju prikupljanja &scaron;to vi&scaron;e novca. Deca su primorana da rade ovakve poslove jer će u suprotnom biti fizički zlostavljana, zastra&scaron;ivana, izgladnjivana...</span></p>
+<p><b>Kako se za&scaron;tititi?</b></p>
+<ul>
+<li aria-level="1"><span>Ne putuj sa ljudima koje ne poznaje&scaron;.</span></li>
+<li aria-level="1"><span>Ne ugovaraj sastanke, druženje ili poslovne sastanke sa ljudima koje ne poznaje&scaron;.</span></li>
+<li aria-level="1"><span>Uvek obavesti najmanje jednu osobu gde ide&scaron; kada odlazi&scaron; od kuće i sa kime će&scaron; biti.</span></li>
+<li aria-level="1"><span>Ukoliko sumnja&scaron; da zna&scaron; žrtvu trgovine ljudima, ne oklevaj da to prijavi&scaron;, može&scaron; spasiti život.</span></li>
+</ul>
+
+
+
+</p></p>]]></string>
+    <string name="education_info11"><![CDATA[<p><p><span>Cyber nasilje je zlostavljanje putem digitalnih uređaja, kompjutera, telefona, tableta i sl. Može se događati na dru&scaron;tvenim mrežama, platformama za dopisivanje i igranje igrica i mobilnim telefonima. Digitalno zlostavljanje se de&scaron;ava sa namerom da se žrtva zastra&scaron;i, osramoti i ponizi, i često se može de&scaron;avati uporedo sa nasiljem uživo.</span></p>
+<p><span>Kada žrtva doživi digitalno nasilje, može da se oseti kao da je ceo svet protiv nje, osećaj da je svi napadaju, i da nema nikog na svojoj strani. Posledice ove vrste nasilja ispoljavaju se na tri načina:</span></p>
+<p><b>Mentalno</b><span> &mdash; uzrujanost, stid, osećaj neadekvatnosti, osećaj nepripadanja, bes&nbsp;</span></p>
+<p><b>Emocionalno</b><span> &mdash; gubitak interesa za uobičajene aktivnosti, povlačenje u sebe, tuga</span></p>
+<p><b>Fizički</b><span> &mdash; neobja&scaron;njiv umor uporedo sa nesanicom, bol u stomaku, česte glavobolje, gubitak apetita&nbsp;</span></p>
+<p><span>Žrtve je najče&scaron;će sramota da govore o problemu digitalnog nasilja, a neke žrtve su čak toliko dugo trpele nasilje da su ubedile sebe da ga zaslužuju. Zbog ovakvih slučajeva, sajber nasilje može dovesti do samoubistva.&nbsp;</span></p>
+<p><b>Kako se za&scaron;tititi?</b></p>
+<ul>
+<li aria-level="1"><span>Ukoliko te neko vređa na internetu, ili ti preti i čini da ti bude neprijatno, obavezno prijavi roditelju ili odraslom od poverenja.</span></li>
+<li aria-level="1"><span>Ne ulazi u diskusiju i ne nastavljaj svađu, napadač će postati nemilosrdniji a ti će&scaron; se osećati gore.</span></li>
+<li aria-level="1"><span>Nasilje na internetu može&scaron; prijaviti i putem na&scaron;e aplikacije.</span></li>
+<li aria-level="1"><span>Zaključaj svoje profile i u prijatelje prihvataj osobe koje zna&scaron; i sa kojima ima&scaron; dobar odnos.</span></li>
+</ul></p>]]></string>
+    <string name="education_info12"><![CDATA[<p>
+<p><span>Internet zavisnost predstavlјa stanje pojedinca u kome je upotreba interneta postala dominantna životna aktivnost koja ga izoluje u odnosu na ostale dru&scaron;tvene tokove, i koja stvara negativne posledice po njega i njegovu okolinu. Preterano kori&scaron;ćenje kompjutera, odnosno Interneta, koje se često povezuje sa gubljenjem i zanemarivanjem osnovnih potreba (spavanje, hrana, toalet...)</span></p>
+<p><span>Simptomi internet zavisnosti su: promenjeno pona&scaron;anje, provođenje sve vi&scaron;e vremena za kompjuterom i internetom, prekid &scaron;kolovanja ili radnog odnosa, zanemarivanje drugih obaveza i interesovanja, problemi sa koncentracijom i pamćenjem, nesanica, problemi sa kičmom, vidom, sluhom i dr.</span></p>
+<p><span>Takođe, simptomi su i:</span></p>
+<ul>
+<li aria-level="2"><span>Veliki broj sati proveden na internetu i konstantan razgovor o utiscima nakon toga. Gubljenje pojma o vremenu dok ste online</span></li>
+<li aria-level="2"><span>Odbijanje uče&scaron;ća u dru&scaron;tvenim aktivnostima kako bi proveli vi&scaron;e vremena onlajn.</span></li>
+<li aria-level="2"><span>Izlivi besa, anksioznost, ili frustracije usled zabrane kori&scaron;ćenja interneta. Razne vrste negativnih posledica &ndash; svadljivost, laganje, lo&scaron;i rezultati na poslu ili u &scaron;koli, nedru&scaron;tvenost, hronični umor...&ldquo;Kriziranje&rdquo; &ndash; osećanje gneva, napetosti i/ili depresije kada je kompjuter nedostupan</span></li>
+<li aria-level="2"><span>Kori&scaron;ćenje interneta bez obzira na probleme koje to izaziva u &scaron;koli ili dru&scaron;tvenim odnosima.</span></li>
+<li aria-level="2"><span>Potreba da se iz dana u dan sve vi&scaron;e vremena provodi uz kompjuter, telefon, tablet...</span></li>
+</ul>
+<p><b>Kako se za&scaron;tititi?</b></p>
+<p><span>Ovaj oblik zavisnosti je relativno nova bolest i socijalni problem. Nastaje otuđivanjem.</span></p>
+<ul>
+<li aria-level="1"><span>Ukoliko oseća&scaron; da ne može&scaron; bez interneta, razgovaraj sa roditeljima ili osobom od poverenja.&nbsp;</span></li>
+<li aria-level="1"><span>Druži se vi&scaron;e oflajn nego onlajn, odaberi aktivnosti koje te interesuju i koje ti prijaju, a da ne uključuju internet.&nbsp;</span></li>
+<li aria-level="1"><span>Zatraži profesionalnu pomoć ukoliko ima&scaron; simptome problematične upotrebe interneta, odnosno ukoliko prelazi&scaron; granicu od &scaron;est sati neprekidnog kori&scaron;ćenja kompjutera. Postoji nekoliko vrsta efektne terapije u ovakvim situacijama na koje se može&scaron; osloniti.</span></li>
+</ul>
+</p>]]></string>
+
+
+
+
+
+
+
+
+
 
 
 

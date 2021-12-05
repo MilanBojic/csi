@@ -18,11 +18,8 @@ class EducationActivity : AppCompatActivity(), ViewPager.OnPageChangeListener {
     private var index = 0
     private var adapter: EducationAdapter? = null
 
-    private var mode: Mode = Mode.CHILD
 
-    enum class Mode {
-        PARENT, CHILD
-    }
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,7 +27,6 @@ class EducationActivity : AppCompatActivity(), ViewPager.OnPageChangeListener {
         binding = EducationRootLayoutBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
-        mode = intent.getSerializableExtra("mode") as Mode
 
         adapter = EducationAdapter(this, data)
         binding.educationPager.adapter = adapter
@@ -55,41 +51,16 @@ class EducationActivity : AppCompatActivity(), ViewPager.OnPageChangeListener {
 
     }
 
+
+
     val data: List<EducationItem>
         get() {
-            when (mode) {
-                Mode.CHILD -> return childData
-                Mode.PARENT -> return parentData
-            }
-        }
-
-
-    val childData: List<EducationItem>
-        get() {
             val result = ArrayList<EducationItem>()
-            val logoArray = resources.obtainTypedArray(R.array.education_child_drawables)
-            val titleArray = applicationContext.resources.getStringArray(R.array.education_child_title_array)
-            val infoArray = applicationContext.resources.getStringArray(R.array.education_child_info_array)
+            val logoArray = resources.obtainTypedArray(R.array.education_drawables)
+            val titleArray = applicationContext.resources.getStringArray(R.array.education_title_array)
+            val infoArray = applicationContext.resources.getStringArray(R.array.education_info_array)
 
-            for (i in infoArray.indices) {
-                val info = infoArray[i]
-                if (!TextUtils.isEmpty(info)) {
-                    result.add(EducationItem(logoArray.getResourceId(i, 0), titleArray[i], info))
-                }
-            }
 
-            logoArray.recycle()
-
-            return result
-
-        }
-
-    val parentData: List<EducationItem>
-        get() {
-            val result = ArrayList<EducationItem>()
-            val logoArray = resources.obtainTypedArray(R.array.education_parent_drawables)
-            val titleArray = applicationContext.resources.getStringArray(R.array.education_parent_title_array)
-            val infoArray = applicationContext.resources.getStringArray(R.array.education_parent_info_array)
 
             for (i in infoArray.indices) {
                 val info = infoArray[i]
@@ -116,6 +87,7 @@ class EducationActivity : AppCompatActivity(), ViewPager.OnPageChangeListener {
     }
 
     private fun updateUI() {
+
         if (binding.educationPager.currentItem + 1 == adapter!!.count) {
             binding.educationNext.visibility = View.INVISIBLE
         } else {

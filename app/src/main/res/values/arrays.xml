@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string-array name="education_child_title_array">
-        <item>@string/education_child_title1</item>
-        <item>@string/education_child_title2</item>
-        <item>@string/education_child_title3</item>
-        <item>@string/education_child_title4</item>
-        <item>@string/education_child_title5</item>
+
+
+    <string-array name="education_title_array">
+        <item>@string/education_title1</item>
+        <item>@string/education_title2</item>
+        <item>@string/education_title3</item>
+        <item>@string/education_title4</item>
+        <item>@string/education_title5</item>
+        <item>@string/education_title6</item>
+        <item>@string/education_title7</item>
+        <item>@string/education_title8</item>
+        <item>@string/education_title9</item>
+        <item>@string/education_title10</item>
+        <item>@string/education_title11</item>
+        <item>@string/education_title12</item>
     </string-array>
 
 
-    <string-array name="education_child_info_array">
-        <item>@string/education_child_info1</item>
-        <item>@string/education_child_info2</item>
-        <item>@string/education_child_info3</item>
-        <item>@string/education_child_info4</item>
-        <item>@string/education_child_info5</item>
-    </string-array>
+    <string-array name="education_info_array">
+        <item>@string/education_info1</item>
+        <item>@string/education_info2</item>
+        <item>@string/education_info3</item>
+        <item>@string/education_info4</item>
+        <item>@string/education_info5</item>
+        <item>@string/education_info6</item>
+        <item>@string/education_info7</item>
+        <item>@string/education_info8</item>
+        <item>@string/education_info9</item>
+        <item>@string/education_info10</item>
+        <item>@string/education_info11</item>
+        <item>@string/education_info12</item>
 
 
 
-    <array name="education_child_drawables">
-        <item>@drawable/ic_child</item>
-        <item>@drawable/ic_child</item>
-        <item>@drawable/ic_child</item>
-        <item>@drawable/ic_child</item>
-        <item>@drawable/ic_child</item>
-    </array>
 
 
 
-    <string-array name="education_parent_title_array">
-        <item>@string/education_parent_title1</item>
-        <item>@string/education_parent_title2</item>
-        <item>@string/education_parent_title3</item>
-        <item>@string/education_parent_title4</item>
-        <item>@string/education_parent_title5</item>
-    </string-array>
-
-
-    <string-array name="education_parent_info_array">
-        <item>@string/education_parent_info1</item>
-        <item>@string/education_parent_info2</item>
-        <item>@string/education_parent_info3</item>
-        <item>@string/education_parent_info4</item>
-        <item>@string/education_parent_info5</item>
     </string-array>
 
 
 
-    <array name="education_parent_drawables">
-        <item>@drawable/ic_father</item>
-        <item>@drawable/ic_father</item>
-        <item>@drawable/ic_father</item>
-        <item>@drawable/ic_father</item>
-        <item>@drawable/ic_father</item>
-pdf tpdf t
+    <array name="education_drawables">
+        <item>@drawable/ic_1</item>
+        <item>@drawable/ic_2</item>
+        <item>@drawable/ic_3</item>
+        <item>@drawable/ic_4</item>
+        <item>@drawable/ic_5</item>
+        <item>@drawable/ic_6</item>
+        <item>@drawable/ic_7</item>
+        <item>@drawable/ic_8</item>
+        <item>@drawable/ic_9</item>
+        <item>@drawable/ic_10</item>
+        <item>@drawable/ic_11</item>
+        <item>@drawable/ic_12</item>
+
     </array>
 
 

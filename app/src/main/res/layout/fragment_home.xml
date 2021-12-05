@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" tools:context=".fragments.HomeFragment">
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:id="@+id/main_layout_id"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/education_button_id"
+            android:layout_width="@dimen/main_activity_button_width"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/tEdukacija"
+            android:textAllCaps="true"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/play_game_button_id"
+            android:text="@string/tIgrica"
+            android:textSize="20sp"
+            android:layout_width="@dimen/main_activity_button_width"
+            android:layout_below="@id/education_button_id"
+            android:textAllCaps="true"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/report_button_id"
+            android:layout_width="@dimen/main_activity_button_width"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/play_game_button_id"
+            android:text="@string/tPrijava"
+            android:textAllCaps="true"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+
+</layout>

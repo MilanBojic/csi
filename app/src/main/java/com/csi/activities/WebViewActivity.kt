@@ -22,7 +22,7 @@ class WebViewActivity : AppCompatActivity() {
         urlToLoad = intent.getStringExtra(Utils.URL) as String
         val mode = intent.getIntExtra("mode", 0) as Int
         if(mode ==0){
-            //setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         }else{
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         }
