@@ -24,6 +24,9 @@ object Utils {
     val playGameUrl
         get() = "https://tijana.rs/bezbednost-na-internetu/index.html"
 
+    val newsUrl
+        get() = "https://cnzd.rs/kategorije/vesti/"
+
     val URL
         get() = "URL"
 

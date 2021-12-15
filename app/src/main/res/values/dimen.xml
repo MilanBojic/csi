@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="main_activity_button_width">260dp</dimen>
-    <dimen name="main_activity_padding_top_button">200dp</dimen>
+    <dimen name="main_activity_padding_top_button">120dp</dimen>
+    <dimen name="main_activity_button_margin">56dp</dimen>
     <dimen name="education_root_maring">32dp</dimen>
     <dimen name="education_logo_size">312dp</dimen>
     <dimen name="education_text_size">16sp</dimen>
     <dimen name="education_bottom_padding_title">40dp</dimen>
     <dimen name="education_title_text_size">24sp</dimen>
+
+
 
 
     <dimen name="activity_horizontal_margin">16dp</dimen>
