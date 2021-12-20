@@ -36,6 +36,7 @@ class SplashActivity : AppCompatActivity() {
                     return@subscribe
 
                 }
+                Log.i("XXX", count.toString())
                 val drawable = logoArray.getDrawable(count)
                 splashLogo.setImageDrawable(drawable)
                 count += 1
