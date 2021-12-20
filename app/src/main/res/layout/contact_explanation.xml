@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/EducationTitle"
+        android:id="@+id/contact_title"
+        android:layout_marginStart="@dimen/space_normal"
+        android:textSize="@dimen/contact_title_text_size"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <ScrollView
+        android:id="@+id/contact_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/EducationDesc"
+            android:id="@+id/contact_info"
+            android:autoLink="email"
+            android:textSize="@dimen/contact_desc_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </ScrollView>
+</LinearLayout>

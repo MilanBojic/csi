@@ -8,6 +8,10 @@
     <dimen name="education_text_size">16sp</dimen>
     <dimen name="education_bottom_padding_title">40dp</dimen>
     <dimen name="education_title_text_size">24sp</dimen>
+    <dimen name="contact_title_text_size">28sp</dimen>
+    <dimen name="contact_desc_text_size">24sp</dimen>
+    <dimen name="space_normal">12dp</dimen>
+    <dimen name="space_large">16dp</dimen>
 
 
 

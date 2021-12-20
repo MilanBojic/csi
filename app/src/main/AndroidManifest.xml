@@ -32,6 +32,16 @@
             android:name="com.csi.activities.EducationActivity"
             android:screenOrientation="portrait" />
 
+        <activity
+            android:name="com.csi.activities.AboutActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.csi.activities.ContactActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait" />
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
 

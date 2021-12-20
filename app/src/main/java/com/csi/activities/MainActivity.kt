@@ -59,6 +59,12 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 bundle.putInt("mode", 0)
                 Utils.goToWebActivity(this, bundle)
             }
+            R.id.about_drawer_id -> {
+                Utils.goToAboutActivity(this)
+            }
+            R.id.kontakt_drawer_id -> {
+                Utils.goToContactActivity(this)
+            }
         }
         return true
     }

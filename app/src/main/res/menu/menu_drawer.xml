@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" tools:showIn="navigation_view">
 
-
-        <item
-            android:id="@+id/misija_drawer_id"
-            android:icon="@drawable/misija"
-            android:title="@string/tMisija" />
         <item
             android:id="@+id/vesti_drawer_id"
 
             android:icon="@drawable/news"
             android:title="@string/tVesti" />
-        <item
-            android:id="@+id/kontakt_drawer_id"
-            android:icon="@drawable/contact"
-            android:title="@string/tKontakt" />
 
         <item
             android:id="@+id/about_drawer_id"
             android:icon="@drawable/about"
             android:title="@string/tAbout" />
+
+        <item
+            android:id="@+id/kontakt_drawer_id"
+            android:icon="@drawable/contact"
+            android:title="@string/tKontakt" />
         <item
             android:id="@+id/exit_drawer_id"
             android:icon="@drawable/exit"

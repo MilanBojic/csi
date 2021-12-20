@@ -8,6 +8,7 @@
     <string name="tMisija">Misija</string>
     <string name="tVesti">Vesti</string>
     <string name="tKontakt">Kontaktiraj nas</string>
+    <string name="tContactDesc">kontakt@csi.org.rs</string>
     <string name="tAbout">O programu</string>
     <string name="tExit">Izlaz</string>
     <string name="tDrawerTitle">Naslov 1</string>
@@ -195,6 +196,9 @@
 
 
 
+<string name="tAboutDesc" >
+CSI (Centar za siguran internet) je program koji je pokrenut kao odgovor na porast zlostavljanja i iskorišćavanja dece na internetu, kao i na sve veći broj načina njegove zloupotrebe.\n\nInternet je, kao najpopularnije sredstvo komunikacije, informisanja, druženja i zabave, postao sastavni deo svakodnevnice dece i mladih, i kao takav, potencijalna pretnja i rizik. Zbog toga, kontinuirana edukacija, osvešćivanje i informisanje, kako dece i mladih, tako i roditelja, nastavnika i drugih stručnih radnika deo je odgovornosti koju je CSI preuzeo na sebe s vizijom da internet prostor učini bezbednim za svako dete.\n\nSa druge strane, dostupnost sve brže internet konekcije i razvoj tehnologije doveli su i do porasta krivičnih dela što je jasno ukazalo na potrebu za razvijanjem mehanizama zaštite dece od seksualnog iskorišćavanja i podizanjem svesti o neophodnosti uključivanja celog društva u borbu protiv seksualnog iskorišćavanja dece. Net Patrola je jedan deo našeg zalaganja za bezbedniju budućnost naše dece putem stvaranja mogućnosti prijave ukoliko neko uoči sumnjiv sadržaj na internetu.\n\nCSI aplikacija izrađena je uz podršku Ministarstva trgovine, turizma i telekomunikacija u okviru projekta Fondacije Tijana Jurić „Bezbedan internet – bezbrižan život“.
+</string>
 
 
 

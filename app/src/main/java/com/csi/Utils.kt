@@ -7,13 +7,8 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.annotation.DrawableRes
 import androidx.appcompat.app.AppCompatActivity
-import com.csi.activities.MainActivity
-import com.csi.activities.WebViewActivity
-import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
-import androidx.fragment.app.FragmentManager
-import androidx.fragment.app.FragmentTransaction
-import com.csi.activities.EducationActivity
+import com.csi.activities.*
 
 
 object Utils {
@@ -47,6 +42,18 @@ object Utils {
         val goToEducationActivity = Intent(from, EducationActivity::class.java)
         if (data != null) goToEducationActivity.putExtras(data)
         from.startActivity(goToEducationActivity)
+    }
+
+    fun goToAboutActivity(from: FragmentActivity, data: Bundle? = null) {
+        val goToAboutActivity = Intent(from, AboutActivity::class.java)
+        if (data != null) goToAboutActivity.putExtras(data)
+        from.startActivity(goToAboutActivity)
+    }
+
+    fun goToContactActivity(from: FragmentActivity, data: Bundle? = null) {
+        val goToContactActivity = Intent(from, ContactActivity::class.java)
+        if (data != null) goToContactActivity.putExtras(data)
+        from.startActivity(goToContactActivity)
     }
 
     fun toastShort(context: Context, value: String) {
