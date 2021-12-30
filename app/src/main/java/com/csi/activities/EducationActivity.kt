@@ -19,9 +19,6 @@ class EducationActivity : AppCompatActivity(), ViewPager.OnPageChangeListener {
     private var adapter: EducationAdapter? = null
 
 
-
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = EducationRootLayoutBinding.inflate(layoutInflater)
@@ -48,9 +45,9 @@ class EducationActivity : AppCompatActivity(), ViewPager.OnPageChangeListener {
         binding.educationBack.setOnClickListener {
             binding.educationPager.currentItem = 0
         }
+        updateUI()
 
     }
-
 
 
     val data: List<EducationItem>
@@ -87,6 +84,11 @@ class EducationActivity : AppCompatActivity(), ViewPager.OnPageChangeListener {
     }
 
     private fun updateUI() {
+        if (binding.educationPager.currentItem == 0) {
+            binding.educationBack.visibility = View.INVISIBLE
+        } else {
+            binding.educationBack.visibility = View.VISIBLE
+        }
 
         if (binding.educationPager.currentItem + 1 == adapter!!.count) {
             binding.educationNext.visibility = View.INVISIBLE
